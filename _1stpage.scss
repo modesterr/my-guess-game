@@ -1,13 +1,15 @@
 .section1 {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(to bottom,
+  background-image: linear-gradient(
+      to bottom,
       rgba(160, 91, 1, 0.986),
       rgba(194, 111, 2, 0.986),
       rgba(209, 119, 1, 0.938),
       rgba(160, 91, 1, 0.986),
-      rgba(1, 93, 129, 0.336)),
-    url(/img/guess.jpg);
+      rgba(1, 93, 129, 0.336)
+    ),
+    url(./img/guess.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,7 +34,6 @@
   font-weight: bolder;
   color: rgba(41, 2, 49, 0.986);
   text-align: center;
-
 
   @media screen and (min-width: 351px) and (max-width: 550px) {
     font-size: 3rem;
@@ -101,16 +102,16 @@
     padding: 1.7rem;
     width: 20%;
     text-decoration: none;
-    letter-spacing: .2rem;
-    border-radius: .8rem;
+    letter-spacing: 0.2rem;
+    border-radius: 0.8rem;
     margin-right: 2rem;
     outline: none;
 
     @media screen and (min-width: 551px) and (max-width: 900px) {
       font-size: 2rem;
       padding: 1.5rem;
-      letter-spacing: .09rem;
-      border-radius: .7rem;
+      letter-spacing: 0.09rem;
+      border-radius: 0.7rem;
       margin-right: 1.6rem;
       width: 30%;
     }
@@ -119,7 +120,7 @@
       font-size: 1.8rem;
       padding: 1.4rem;
       letter-spacing: 0rem;
-      border-radius: .6rem;
+      border-radius: 0.6rem;
       margin-right: 1rem;
       width: 40%;
     }
@@ -128,8 +129,8 @@
       font-size: 1.5rem;
       padding: 1rem;
       letter-spacing: 0rem;
-      border-radius: .6rem;
-      margin-right: .8rem;
+      border-radius: 0.6rem;
+      margin-right: 0.8rem;
       width: 50%;
     }
   }
@@ -142,24 +143,23 @@
     padding: 1.7rem;
     background-color: rgba(41, 2, 49, 0.986);
     color: rgb(221, 202, 220);
-    letter-spacing: .5rem;
-    border-radius: .8rem;
+    letter-spacing: 0.5rem;
+    border-radius: 0.8rem;
     outline: none;
 
     @media screen and (min-width: 551px) and (max-width: 900px) {
       font-size: 2.1rem;
       padding: 1.5rem;
-      letter-spacing: .3rem;
-      border-radius: .7rem;
-
+      letter-spacing: 0.3rem;
+      border-radius: 0.7rem;
     }
 
     @media screen and (min-width: 351px) and (max-width: 550px) {
       font-size: 1.8rem;
       font-weight: 700;
       padding: 1.4rem;
-      letter-spacing: .2rem;
-      border-radius: .6rem;
+      letter-spacing: 0.2rem;
+      border-radius: 0.6rem;
       //width: 40%;
     }
 
@@ -167,8 +167,8 @@
       font-size: 1.5rem;
       padding: 1rem;
       letter-spacing: 0rem;
-      border-radius: .6rem;
-      margin-right: .8rem;
+      border-radius: 0.6rem;
+      margin-right: 0.8rem;
       //width: 50%;
     }
   }
